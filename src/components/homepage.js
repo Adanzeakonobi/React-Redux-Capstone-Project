@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import FetchStats from '../store/api';
-import { GetStats } from '../store/reducer';
+import StatisticsFetch from '../redux/data';
+import { GetStatistics } from '../redux/stats';
 
 const HomePage = () => {
   const CountryStore = useSelector((store) => store.details);
@@ -10,8 +10,8 @@ const HomePage = () => {
 
   useEffect(() => {
     if (CountryStore.length === 0) {
-      FetchStats()
-        .then((response) => dispatch(GetStats(response)));
+      StatisticsFetch()
+        .then((response) => dispatch(GetStatistics(response)));
     }
   }, []);
 
