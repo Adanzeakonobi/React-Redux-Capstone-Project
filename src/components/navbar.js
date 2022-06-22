@@ -1,10 +1,12 @@
 import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { TiArrowBackOutline } from 'react-icons/ti';
+import { BsMic } from 'react-icons/bs';
+import { AiOutlineSetting } from 'react-icons/ai';
 import logo from '../images/logo.png';
 
 const NavBar = () => {
-  const detailsNav = <TiArrowBackOutline className="goBack" />;
+  const detailsNav = <TiArrowBackOutline className="setBack" />;
   const header = 'Corona Nigeria Checker';
   const location = useLocation();
   const goBack = location.pathname.includes('State') ? detailsNav : '';
@@ -15,7 +17,11 @@ const NavBar = () => {
         <NavLink exact="true" to={{ pathname: '/' }}>
           {goBack}
         </NavLink>
-        <h1 className="firstheader">CoviData</h1>
+        <h1 className="firstheader">CovidData</h1>
+        <div className="navIcons">
+          <BsMic />
+          <AiOutlineSetting />
+        </div>
       </div>
       <div className="secondnav">
         <img src={logo} alt="logo" className="logo" />
