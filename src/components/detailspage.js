@@ -1,19 +1,19 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import StatisticsFetch from '../redux/data';
-import { GetStatistics } from '../redux/stats';
+import FetchStats from '../redux/data';
+import { GetStats } from '../redux/stats';
 
 const Country = () => {
-  const CountryStore = useSelector((store) => store.details);
+  const countryStore = useSelector((store) => store.details);
   const dispatch = useDispatch();
   const { name } = useParams();
-  const findCountry = CountryStore.find((country) => country.country === name);
+  const findCountry = countryStore.find((country) => country.country === name);
 
   useEffect(() => {
-    if (CountryStore.length === 0) {
-      StatisticsFetch()
-        .then((response) => dispatch(GetStatistics(response)));
+    if (countryStore.length === 0) {
+      FetchStats()
+        .then((response) => dispatch(GetStats(response)));
     }
   });
 

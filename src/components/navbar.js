@@ -7,7 +7,7 @@ import logo from '../images/logo.png';
 
 const NavBar = () => {
   const detailsNav = <TiArrowBackOutline className="setBack" />;
-  const header = 'Corona Nigeria Checker';
+  const header = 'Corona Africa Checker';
   const location = useLocation();
   const goBack = location.pathname.includes('State') ? detailsNav : '';
 

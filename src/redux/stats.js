@@ -2,7 +2,7 @@ const GET_STATS = 'covid/GET_STATS';
 
 const intialState = [];
 
-const GetStatistics = (payload) => ({
+const GetStats = (payload) => ({
   type: GET_STATS,
   payload,
 });
@@ -16,4 +16,4 @@ const StatisticsReducer = (state = intialState, action) => {
   }
 };
 
-export { GetStatistics, StatisticsReducer };
+export { GetStats, StatisticsReducer };

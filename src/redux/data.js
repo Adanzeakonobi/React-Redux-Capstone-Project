@@ -2,8 +2,8 @@ import axios from 'axios';
 
 const baseURL = 'https://disease.sh/v3/covid-19/countries';
 
-const StatisticsFetch = async () => {
-  const statistics = [];
+const FetchStats = async () => {
+  const stats = [];
   const response = await axios.get(baseURL);
   const responseData = response.data;
 
@@ -24,10 +24,10 @@ const StatisticsFetch = async () => {
       todays_recovered: data.todayRecovered,
     };
 
-    return statistics.push(covidData);
+    return stats.push(covidData);
   });
 
-  return statistics;
+  return stats;
 };
 
-export default StatisticsFetch;
+export default FetchStats;
