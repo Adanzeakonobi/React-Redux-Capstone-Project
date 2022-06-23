@@ -7,14 +7,6 @@
   margin: 0;
 }
 
-html {
-  /* background: url(./images/africa.png) no-repeat; */
-  background-color: aquamarine;
-  /* background-position: center;
-  background-size: contain;
-  background-attachment: fixed; */
-}
-
 body {
   margin: 0;
   font-family:
@@ -51,10 +43,6 @@ nav div {
 
 nav {
   font-family: 'Lato', sans-serif;
-    background: url(./images/africa.png) no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-attachment: fixed;
 }
 
 .firstnav {
@@ -74,7 +62,7 @@ nav {
 }
 
 .secondnav {
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: seagreen;
   color: rgb(59, 59, 59);
   letter-spacing: 2px;
 }
@@ -87,7 +75,7 @@ nav {
 .current h3,
 .sum h3 {
   padding: 20px;
-  background-color:  #346619;
+  background-color: lightgreen;
 }
 
 .current li h4,
