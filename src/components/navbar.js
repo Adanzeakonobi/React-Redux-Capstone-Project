@@ -7,9 +7,9 @@ import logo from '../images/logo.png';
 
 const NavBar = () => {
   const detailsNav = <TiArrowBackOutline className="setBack" />;
-  const header = 'Corona Africa Checker';
+  const header = 'Corona Africa Tracker';
   const location = useLocation();
-  const goBack = location.pathname.includes('State') ? detailsNav : '';
+  const goBack = location.pathname.includes('country') ? detailsNav : '';
 
   return (
     <nav>
@@ -17,7 +17,7 @@ const NavBar = () => {
         <NavLink exact="true" to={{ pathname: '/' }}>
           {goBack}
         </NavLink>
-        <h1 className="firstheader">CovidData</h1>
+        <h1 className="firstheader">Covid Data Centre</h1>
         <div className="navIcons">
           <BsMic />
           <AiOutlineSetting />
@@ -25,7 +25,7 @@ const NavBar = () => {
       </div>
       <div className="secondnav">
         <img src={logo} alt="logo" className="logo" />
-        <h1 className="2ndheader">
+        <h1 className="sndheader">
           {header}
         </h1>
       </div>

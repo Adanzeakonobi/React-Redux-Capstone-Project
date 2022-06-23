@@ -4,7 +4,7 @@ import thunk from 'redux-thunk';
 import { StatisticsReducer } from './stats';
 
 const rootReducer = combineReducers({
-  StatisticsReducer,
+  details: StatisticsReducer,
 });
 
 // const store = configureStore(rootReducer, applyMiddleware(logger, thunk));

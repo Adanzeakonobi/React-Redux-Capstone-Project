@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* background: url(./images/africa.png) no-repeat; */
+  background-color: aquamarine;
+  /* background-position: center;
+  background-size: contain;
+  background-attachment: fixed; */
+}
+
 body {
   margin: 0;
   font-family:
@@ -16,12 +33,232 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+nav div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.navIcons {
+  gap: 20px;
+}
+
+.navIcons svg {
+  color: #fff;
+  font-size: 25px;
+}
+
+nav {
+  font-family: 'Lato', sans-serif;
+    background: url(./images/africa.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.firstnav {
+  background-color: green;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.continent-data,
+.continent,
+.footer {
+  background-color: rgba(19, 44, 22, 0.9);
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.secondnav {
+  background-color: rgba(255, 0, 0, 0.3);
+  color: rgb(59, 59, 59);
+  letter-spacing: 2px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.current h3,
+.sum h3 {
+  padding: 20px;
+  background-color:  #346619;
+}
+
+.current li h4,
+.current li h4 {
+  font-size: 18px;
+  color: rgb(56, 48, 48);
+}
+
+.dataList {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.dataList a,
+.sum,
+.current {
+  background-color: rgba(5, 128, 60, 0.8);
+}
+
+.dataList a {
+  padding: 20px;
+}
+
+.homePage a {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(61, 61, 61);
+  font-size: 20px;
+}
+
+.data-cont div ul li {
+  padding: 20px 0;
+}
+
+.dataList a:nth-child(4n),
+.dataList a:nth-child(4n + 1),
+.dataContainer div ul li:nth-child(even) {
+  background-color: rgba(70, 168, 75, 0.9);
+}
+
+.dataList a:hover,
+.dataList a:nth-child(4n):hover,
+.dataList a:nth-child(4n + 1):hover,
+.formSearch {
+  padding: 25px;
+  background-color: rgba(92, 110, 25, 0.7);
+  color: white;
+}
+
+.formSearch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.searchInput {
+  border: none;
+  background-color: transparent;
+  height: 25px;
+}
+
+::placeholder {
+  color: white;
+  padding-bottom: 5px;
+}
+
+.setBack {
+  width: 25px;
+  height: 25px;
+  color: white;
+}
+
+.countryName {
+  font-size: 30px;
+}
+
+.population {
+  font-size: 25px;
+}
+
+.number {
+  font-size: 20px;
+}
+
+.infoCountry {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flag {
+  width: 120px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.flag2 {
+  border-radius: 5px;
+}
+
+.homePage {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+.data-cont div ul {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .dataList a {
+    padding: 10px;
+  }
+
+  .secondnav {
+    gap: 200px;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sndheader {
+    font-size: 15px;
+  }
+
+  .homePage a {
+    font-size: 15px;
+  }
+
+  nav div {
+    padding: 5px 10px;
+  }
+
+  .countryName {
+    font-size: 18px;
+  }
+
+  .population {
+    font-size: 15px;
+  }
+
+  .number {
+    font-size: 13px;
+  }
+
+  .flag {
+    width: 70px;
+    height: 50px;
+  }
+
+  .flag2 {
+    width: 160px;
+    border-radius: 5px;
+  }
+
+  .current h3,
+  .sum h3 {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .data-cont div ul li {
+    padding: 10px;
+  }
+
+  .navIcons svg,
+  .firstheader,
+  .continent-data h1 {
+    font-size: 20px;
+  }
 }

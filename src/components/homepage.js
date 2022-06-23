@@ -6,7 +6,7 @@ import FetchStats from '../redux/data';
 import { GetStats } from '../redux/stats';
 
 const HomePage = () => {
-  const countryStore = useSelector((store) => store.details) || [];
+  const countryStore = useSelector((store) => store.details);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -46,7 +46,7 @@ const HomePage = () => {
         {
       Africa.map((country) => (
         <Link key={country.country} to={{ pathname: `/country/${country.country}` }}>
-          <li className="countryInfo">
+          <li className="infoCountry">
             <div className="information">
               <h1 className="countryName">
                 {country.country}
