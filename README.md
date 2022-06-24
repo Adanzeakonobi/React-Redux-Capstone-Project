@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Metrics Webapp Capstone project
 
-## Available Scripts
+This is a mobile web application that displays details of Covid cases in Africa. This details is gotten/fetched from a Covid-19 API.
 
-In the project directory, you can run:
+# Preview Mobile Version
 
-### `npm start`
+![screenshot](./src/images/homepage.png)
+![screenshot](./src/images/detailspage.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Preview Desktop Version
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![screenshot](./src/images/homepagedesktop.PNG)
+![screenshot](./src/images/detailspagedesktop.PNG)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
 
-### `npm run build`
+- Major languages
+  - Javascript
+  - Css
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Frameworks
+  - React
+  - React Redux
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Technologies used
+  - github
+  - npm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Live Demo (if available)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Live Demo Link](https://react-capstone-project-metric.herokuapp.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Page presentation video
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### To get a local copy up and running follow these simple example steps.
 
-## Learn More
+- Click on the `Code` button on the repo
+- In your local PC, open your terminal in the folder you would like to clone the project.
+- Clone the repo with the command: `git clone (copied link)`; like so: `git clone https://github.com/Adanzeakonobi/React-Redux-Capstone-Project.git`
+- On the terminal, navigate into the directory like so: `cd bookstore`
+- Checkout to branch name like so: `git checkout [branch name]`
+- Run `npm i` or `yarn` to install the dependencies
+- Run `npm start` or `yarn start` to start the application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
+👤 **Adaobi Vivian Okoye**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- GitHub: [@githubhandle](https://github.com/adanzeakonobi) 
+- Twitter: [@twitterhandle](https://twitter.com/Adaebubemmuta)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/okoyeaadaobi)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🤝 Contributing
 
-### Making a Progressive Web App
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feel free to check the [issues page](https://github.com/Adanzeakonobi/React-Redux-Capstone-Project.git/issues/new).
 
-### Advanced Configuration
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Give a ⭐️ if you like this project!
 
-### Deployment
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Facebook** for making such a wonderful framework
+- **Microverse** : for the opportunity to be part of a global network
+- **Nelson Sakwa on Behance** : Whose original design idea was used
