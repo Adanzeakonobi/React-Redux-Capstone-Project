@@ -15,7 +15,7 @@ exports[`Render components render NavBar 1`] = `
     <h1
       className="firstheader"
     >
-      Covid Data Centre
+      Covid-19 Data Centre
     </h1>
     <div
       className="navIcons"
@@ -67,12 +67,12 @@ exports[`Render components render NavBar 1`] = `
     <img
       alt="logo"
       className="logo"
-      src="logo.png"
+      src="africque.png"
     />
     <h1
       className="sndheader"
     >
-      Corona Africa Tracker
+      Covid-19 Africa Tracker
     </h1>
   </div>
 </nav>

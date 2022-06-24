@@ -4,12 +4,14 @@
 
 This is a mobile web application that displays details of Covid cases in Africa. This details is gotten/fetched from a Covid-19 API.
 
-# Preview Mobile Version
+# Preview 
+
+- Mobile Version
 
 ![screenshot](./src/images/homepage.png)
 ![screenshot](./src/images/detailspage.png)
 
-# Preview Desktop Version
+- Desktop Version
 
 ![screenshot](./src/images/homepagedesktop.PNG)
 ![screenshot](./src/images/detailspagedesktop.PNG)
@@ -35,7 +37,7 @@ This is a mobile web application that displays details of Covid cases in Africa.
 [Live Demo Link](https://react-capstone-project-metric.herokuapp.com/)
 
 ## Page presentation video
-
+[Live Video Link](https://www.loom.com/share/5a40dffe71954eb98cea6e7f7e32a7e8)
 
 #### To get a local copy up and running follow these simple example steps.
 
@@ -72,3 +74,4 @@ Give a ⭐️ if you like this project!
 - **Facebook** for making such a wonderful framework
 - **Microverse** : for the opportunity to be part of a global network
 - **Nelson Sakwa on Behance** : Whose original design idea was used
+- **External API** : from https://disease.sh/v3/covid-19/countries

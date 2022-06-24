@@ -7,7 +7,6 @@ const rootReducer = combineReducers({
   details: StatisticsReducer,
 });
 
-// const store = configureStore(rootReducer, applyMiddleware(logger, thunk));
 const store = configureStore({
   reducer: rootReducer,
 }, applyMiddleware(logger, thunk));

@@ -18,7 +18,7 @@ Object {
           <h1
             class="firstheader"
           >
-            Covid Data Centre
+            Covid-19 Data Centre
           </h1>
           <div
             class="navIcons"
@@ -60,12 +60,12 @@ Object {
           <img
             alt="logo"
             class="logo"
-            src="logo.png"
+            src="africque.png"
           />
           <h1
             class="sndheader"
           >
-            Corona Africa Tracker
+            Covid-19 Africa Tracker
           </h1>
         </div>
       </nav>
@@ -124,7 +124,7 @@ Object {
         <h1
           class="firstheader"
         >
-          Covid Data Centre
+          Covid-19 Data Centre
         </h1>
         <div
           class="navIcons"
@@ -166,12 +166,12 @@ Object {
         <img
           alt="logo"
           class="logo"
-          src="logo.png"
+          src="africque.png"
         />
         <h1
           class="sndheader"
         >
-          Corona Africa Tracker
+          Covid-19 Africa Tracker
         </h1>
       </div>
     </nav>

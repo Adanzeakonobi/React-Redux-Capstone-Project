@@ -16,12 +16,10 @@ const HomePage = () => {
     }
   }, []);
 
-  // let Africa = countryStore?.filter((item) => item.continent === 'Africa');
   let Africa = countryStore.filter((item) => item.continent === 'Africa');
   const location = useLocation();
   const query = new URLSearchParams(location.search);
   const search = query.get('search') || '';
-  // Africa = Africa?.filter((country) => country.country.includes(search.toLowerCase()));
   Africa = Africa.filter((country) => country.country.includes(search.toLowerCase()));
   const navigate = useNavigate();
   const [searchValue, setSearchValue] = useState(search);
